@@ -16,4 +16,5 @@ tqdm
 urllib3==1.21.1
 numpy==1.24.3
 PyYAML
+Keras-Preprocessing
 -e .
