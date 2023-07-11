@@ -1,6 +1,6 @@
 from SeverityOfToxicCommentsEndToEnd.constants import *
 from SeverityOfToxicCommentsEndToEnd.utils.common import read_yaml, create_directories
-from SeverityOfToxicCommentsEndToEnd.entity import DataIngestionConfig
+from SeverityOfToxicCommentsEndToEnd.entity import DataIngestionConfig, DataTransformationConfig
 
 class ConfigurationManager:
     def __init__(self, config_filepath = CONFIG_FILE_PATH, params_filepath = PARAMS_FILE_PATH):
@@ -21,3 +21,16 @@ class ConfigurationManager:
         )
         print(data_ingestion_config.source_URL)
         return data_ingestion_config
+    
+    def get_data_transformation_config(self) -> DataTransformationConfig:
+        config = self.config.data_transformation
+        create_directories([config.root_dir])
+
+        data_transformation_config = DataTransformationConfig(
+            root_dir = config.root_dir,
+            data_path = config.data_path,
+            tokenizer_path = config.tokenizer_path,
+            # potential_stopwords = config.potential_stopwords,
+            # re_patterns = config.RE_PATTERNS
+        )
+        return data_transformation_config

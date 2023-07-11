@@ -88,3 +88,32 @@ Source-Age: 0
 
 
 [2023-07-09 19:33:36,714: INFO: main] >>>>> Finished Stage 01 - Data Ingestion <<<<<
+[2023-07-11 20:17:30,595: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-11 20:17:30,609: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-11 20:17:30,613: INFO: common] Created directory at: artifacts
+[2023-07-11 20:17:30,615: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-11 20:19:31,677: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-11 20:19:31,680: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-11 20:19:31,682: INFO: common] Created directory at: artifacts
+[2023-07-11 20:19:31,685: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-11 20:20:31,658: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-11 20:20:31,661: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-11 20:20:31,665: INFO: common] Created directory at: artifacts
+[2023-07-11 20:20:31,667: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-11 20:22:22,247: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-11 20:22:22,249: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-11 20:22:22,253: INFO: common] Created directory at: artifacts
+[2023-07-11 20:22:22,256: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-11 22:34:34,490: INFO: main] >>>>> Running Stage 01 - Data Ingestion <<<<<
+[2023-07-11 22:34:34,493: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-11 22:34:34,494: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-11 22:34:34,495: INFO: common] Created directory at: artifacts
+[2023-07-11 22:34:34,495: INFO: common] Created directory at: artifacts/data_ingestion
+[2023-07-11 22:34:34,496: INFO: data_ingestion] File already exists at artifacts/data_ingestion/ToxicCommentsData.zip
+[2023-07-11 22:34:34,880: INFO: main] >>>>> Finished Stage 01 - Data Ingestion <<<<<
+[2023-07-11 22:34:34,880: INFO: main] >>>>> Running Stage 02 - Data Transformation <<<<<
+[2023-07-11 22:34:34,882: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-11 22:34:34,883: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-11 22:34:34,883: INFO: common] Created directory at: artifacts
+[2023-07-11 22:34:34,884: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-11 22:35:16,432: INFO: main] >>>>> Finished Stage 02 - Data Transformation <<<<<
