@@ -1,1 +1,6 @@
-key: value
+TransformationAndTrainingArguments:
+  epochs : 2
+  embedding_dim : 300
+  batch_size : 32
+  fasttext_embedding_path : "data/embeddings/cc.en.300.bin"
+  max_features : 148844

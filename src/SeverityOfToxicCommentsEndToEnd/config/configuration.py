@@ -28,7 +28,8 @@ class ConfigurationManager:
 
         data_transformation_config = DataTransformationConfig(
             root_dir = config.root_dir,
-            data_path = config.data_path,
+            test_data_path = config.test_data_path,
+            train_data_path = config.train_data_path,
             tokenizer_path = config.tokenizer_path,
             # potential_stopwords = config.potential_stopwords,
             # re_patterns = config.RE_PATTERNS

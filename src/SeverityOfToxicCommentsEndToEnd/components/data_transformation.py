@@ -119,7 +119,7 @@ class DataTransformation:
         return str(output.strip())
     
     def perform_data_transformation(self):
-        df = pd.read_csv(self.config.data_path)
+        df = pd.read_csv(self.config.train_data_path)
         for line in df['comment_text']: 
             self.train_text.append(self.clean_text(line))
 

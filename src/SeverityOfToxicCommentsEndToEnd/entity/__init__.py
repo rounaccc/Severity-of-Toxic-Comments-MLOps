@@ -11,5 +11,6 @@ class DataIngestionConfig:
 @dataclass(frozen=True)
 class DataTransformationConfig:
     root_dir: Path
-    data_path: Path
+    test_data_path: Path
+    train_data_path: Path
     tokenizer_path: Path
