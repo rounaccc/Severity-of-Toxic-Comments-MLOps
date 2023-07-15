@@ -197,3 +197,102 @@ Source-Age: 0
 [2023-07-13 21:57:47,915: INFO: common] Successfully read yaml file from params.yaml
 [2023-07-13 21:57:47,918: INFO: common] Created directory at: artifacts
 [2023-07-13 21:57:47,919: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-15 12:17:19,470: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-15 12:17:19,484: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-15 12:17:19,486: INFO: common] Created directory at: artifacts
+[2023-07-15 12:17:19,488: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-15 12:18:16,765: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-15 12:18:16,768: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-15 12:18:16,770: INFO: common] Created directory at: artifacts
+[2023-07-15 12:18:16,772: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-15 12:18:43,665: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-15 12:18:43,667: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-15 12:18:43,669: INFO: common] Created directory at: artifacts
+[2023-07-15 12:18:43,671: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-15 12:39:39,736: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-15 12:39:39,742: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-15 12:39:39,744: INFO: common] Created directory at: artifacts
+[2023-07-15 12:39:39,746: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-15 12:46:06,555: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-15 12:46:06,559: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-15 12:46:06,561: INFO: common] Created directory at: artifacts
+[2023-07-15 12:46:06,562: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-15 13:13:17,496: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-15 13:13:17,510: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-15 13:13:17,514: INFO: common] Created directory at: artifacts
+[2023-07-15 13:13:17,515: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-15 13:17:40,168: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-15 13:17:40,181: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-15 13:17:40,186: INFO: common] Created directory at: artifacts
+[2023-07-15 13:17:40,189: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-15 13:33:07,138: INFO: builder_impl] Assets written to: artifacts/model_trainer\assets
+[2023-07-15 15:58:13,046: INFO: main] >>>>> Running Stage 01 - Data Ingestion <<<<<
+[2023-07-15 15:58:13,058: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-15 15:58:13,067: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-15 15:58:13,068: INFO: common] Created directory at: artifacts
+[2023-07-15 15:58:13,068: INFO: common] Created directory at: artifacts/data_ingestion
+[2023-07-15 15:59:07,314: INFO: data_ingestion] artifacts/data_ingestion/ToxicCommentsData.zip downloaded successfully with the following info: Connection: close
+Content-Length: 28414360
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "9d1ff736c85b66d5762d14d3f896fd686b6fb01f7d2004b8e1828dff212833d0"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: A15E:1C46E5:273307:392785:64B274BF
+Accept-Ranges: bytes
+Date: Sat, 15 Jul 2023 10:28:18 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830048-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1689416897.093104,VS0,VE1856
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 516d657fcfb68afd77ba5d3d240adf75c58e982a
+Expires: Sat, 15 Jul 2023 10:33:18 GMT
+Source-Age: 1
+
+
+[2023-07-15 15:59:07,773: INFO: main] >>>>> Finished Stage 01 - Data Ingestion <<<<<
+[2023-07-15 15:59:07,774: INFO: main] >>>>> Running Stage 02 - Data Transformation <<<<<
+[2023-07-15 15:59:07,777: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-15 15:59:07,778: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-15 15:59:07,779: INFO: common] Created directory at: artifacts
+[2023-07-15 15:59:07,780: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-15 16:02:19,850: INFO: main] >>>>> Finished Stage 02 - Data Transformation <<<<<
+[2023-07-15 16:02:19,851: INFO: main] >>>>> Running Stage 03 - Model Training <<<<<
+[2023-07-15 16:02:19,859: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-15 16:02:19,861: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-15 16:02:19,862: INFO: common] Created directory at: artifacts
+[2023-07-15 16:02:19,863: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-15 16:02:20,632: ERROR: main] name 'os' is not defined
+Traceback (most recent call last):
+  File "main.py", line 31, in <module>
+    model_training.main()
+  File "c:\users\rounak\desktop\onedrive\college\projects\severity-of-toxic-commentis-end-to-end\src\SeverityOfToxicCommentsEndToEnd\pipeline\stage_03_model_trainer.py", line 13, in main
+    model_trainer.DefineTokenizer(model_trainer_config.processed_train_data_dir)
+  File "c:\users\rounak\desktop\onedrive\college\projects\severity-of-toxic-commentis-end-to-end\src\SeverityOfToxicCommentsEndToEnd\components\model_trainer.py", line 30, in DefineTokenizer
+    if not os.path.exists(path):
+NameError: name 'os' is not defined
+[2023-07-15 16:03:45,972: INFO: main] >>>>> Running Stage 01 - Data Ingestion <<<<<
+[2023-07-15 16:03:45,974: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-15 16:03:45,976: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-15 16:03:45,977: INFO: common] Created directory at: artifacts
+[2023-07-15 16:03:45,977: INFO: common] Created directory at: artifacts/data_ingestion
+[2023-07-15 16:03:45,978: INFO: data_ingestion] File already exists at artifacts/data_ingestion/ToxicCommentsData.zip
+[2023-07-15 16:03:46,359: INFO: main] >>>>> Finished Stage 01 - Data Ingestion <<<<<
+[2023-07-15 16:03:46,360: INFO: main] >>>>> Running Stage 02 - Data Transformation <<<<<
+[2023-07-15 16:03:46,362: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-15 16:03:46,364: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-15 16:03:46,365: INFO: common] Created directory at: artifacts
+[2023-07-15 16:03:46,365: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-15 16:07:00,321: INFO: main] >>>>> Finished Stage 02 - Data Transformation <<<<<
+[2023-07-15 16:07:00,322: INFO: main] >>>>> Running Stage 03 - Model Training <<<<<
+[2023-07-15 16:07:00,325: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-15 16:07:00,327: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-15 16:07:00,328: INFO: common] Created directory at: artifacts
+[2023-07-15 16:07:00,329: INFO: common] Created directory at: artifacts/model_trainer

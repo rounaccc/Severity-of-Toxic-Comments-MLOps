@@ -1,6 +1,6 @@
 from SeverityOfToxicCommentsEndToEnd.constants import *
 from SeverityOfToxicCommentsEndToEnd.utils.common import read_yaml, create_directories
-from SeverityOfToxicCommentsEndToEnd.entity import DataIngestionConfig, DataTransformationConfig
+from SeverityOfToxicCommentsEndToEnd.entity import DataIngestionConfig, DataTransformationConfig, ModelTrainerConfig
 
 class ConfigurationManager:
     def __init__(self, config_filepath = CONFIG_FILE_PATH, params_filepath = PARAMS_FILE_PATH):
@@ -33,3 +33,23 @@ class ConfigurationManager:
             tokenizer_path = config.tokenizer_path,
         )
         return data_transformation_config
+    
+    def get_model_trainer_config(self) -> ModelTrainerConfig:
+        config = self.config.model_trainer
+        params = self.params.TransformationAndTrainingArguments
+
+        create_directories([config.root_dir])
+
+        model_trainer_config = ModelTrainerConfig(
+            root_dir = config.root_dir,
+            processed_test_data_dir = config.processed_test_data_dir,
+            processed_train_data_dir = config.processed_train_data_dir,
+            tokenizer_dir = config.tokenizer_dir,
+            epochs = params.epochs,
+            embedding_dim = params.embedding_dim,
+            batch_size = params.batch_size,
+            fasttext_model_path = params.fasttext_model_path,
+            max_features = params.max_features,
+            maxpadlen = params.maxpadlen
+        )
+        return model_trainer_config
