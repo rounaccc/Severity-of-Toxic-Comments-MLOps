@@ -2,5 +2,6 @@ TransformationAndTrainingArguments:
   epochs : 2
   embedding_dim : 300
   batch_size : 32
-  fasttext_embedding_path : "data/embeddings/cc.en.300.bin"
+  fasttext_model_path : "artifacts/data_ingestion/wiki-news-300d-1M.vec"
   max_features : 148844
+  maxpadlen : 200 

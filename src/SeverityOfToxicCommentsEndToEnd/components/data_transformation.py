@@ -118,8 +118,8 @@ class DataTransformation:
 
         return str(output.strip())
     
-    def perform_data_transformation(self):
-        df = pd.read_csv(self.config.train_data_path)
+    def perform_data_transformation(self, path):
+        df = pd.read_csv(path)
         for line in df['comment_text']: 
             self.train_text.append(self.clean_text(line))
 
@@ -131,13 +131,10 @@ class DataTransformation:
         self.alter_stopwords()
         for line in self.lemma_train_text: 
             self.processed_train_text.append(self.remove_stopwords(line))
-    
-    def tokenizer(self):
-        tokenizer = Tokenizer(num_words=max_features)
-        tokenizer.fit_on_texts(list(self.processed_train_text))
-        list_tokenized_train = tokenizer.texts_to_sequences(self.processed_train_text)
-        word_index=tokenizer.word_index
-        training_padded=pad_sequences(list_tokenized_train, maxlen=maxpadlen, padding = 'post')
-        # save tokenizer
-        with open(self.config.tokenizer_path, 'wb') as handle:
-            pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
+        
+        # convert to csv and store
+        df['comment_text'] = self.processed_train_text
+        df = df[df['comment_text'].notnull()]
+        df.to_csv(f'{self.config.root_dir}/processed_{path.split("/")[-1]}', index=False)
+
+        self.stopword_list, self.dual_alpha_list, self.train_text, self.lemma_train_text, self.processed_train_text = [], [], [], [], []

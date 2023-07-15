@@ -117,3 +117,83 @@ Source-Age: 0
 [2023-07-11 22:34:34,883: INFO: common] Created directory at: artifacts
 [2023-07-11 22:34:34,884: INFO: common] Created directory at: artifacts/data_transformation
 [2023-07-11 22:35:16,432: INFO: main] >>>>> Finished Stage 02 - Data Transformation <<<<<
+[2023-07-12 19:27:42,815: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-12 19:27:42,826: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-12 19:27:42,828: INFO: common] Created directory at: artifacts
+[2023-07-12 19:27:42,830: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-12 19:29:07,071: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-12 19:29:07,073: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-12 19:29:07,075: INFO: common] Created directory at: artifacts
+[2023-07-12 19:29:07,076: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-12 19:35:19,023: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-12 19:35:19,026: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-12 19:35:19,027: INFO: common] Created directory at: artifacts
+[2023-07-12 19:35:19,029: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-12 19:37:17,507: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-12 19:37:17,510: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-12 19:37:17,512: INFO: common] Created directory at: artifacts
+[2023-07-12 19:37:17,513: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-12 19:45:19,035: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-12 19:45:19,038: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-12 19:45:19,040: INFO: common] Created directory at: artifacts
+[2023-07-12 19:45:19,041: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-12 19:59:41,038: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-12 19:59:41,043: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-12 19:59:41,046: INFO: common] Created directory at: artifacts
+[2023-07-12 19:59:41,049: INFO: common] Created directory at: artifacts/data_transformation
+[2023-07-13 18:54:34,307: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 18:54:34,321: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 18:54:34,324: INFO: common] Created directory at: artifacts
+[2023-07-13 18:54:34,326: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-13 18:55:35,224: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 18:55:35,236: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 18:55:35,237: INFO: common] Created directory at: artifacts
+[2023-07-13 18:55:35,239: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-13 18:57:32,851: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 18:57:32,853: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 18:57:32,855: INFO: common] Created directory at: artifacts
+[2023-07-13 18:57:32,856: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-13 19:01:44,108: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 19:01:44,113: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 19:01:44,116: INFO: common] Created directory at: artifacts
+[2023-07-13 19:01:44,117: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-13 19:07:56,984: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 19:07:56,991: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 19:07:56,995: INFO: common] Created directory at: artifacts
+[2023-07-13 19:07:56,997: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-13 19:12:07,031: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 19:12:07,035: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 19:12:07,037: INFO: common] Created directory at: artifacts
+[2023-07-13 19:12:07,039: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-13 19:13:31,788: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 19:13:31,791: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 19:13:31,793: INFO: common] Created directory at: artifacts
+[2023-07-13 19:13:31,794: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-13 19:13:55,683: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 19:13:55,686: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 19:13:55,687: INFO: common] Created directory at: artifacts
+[2023-07-13 19:13:55,688: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-13 19:17:38,476: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 19:17:38,481: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 19:17:38,483: INFO: common] Created directory at: artifacts
+[2023-07-13 19:17:38,484: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-13 19:18:10,765: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 19:18:10,769: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 19:18:10,771: INFO: common] Created directory at: artifacts
+[2023-07-13 19:18:10,774: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-13 19:28:48,024: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 19:28:48,027: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 19:28:48,029: INFO: common] Created directory at: artifacts
+[2023-07-13 19:28:48,030: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-13 19:29:52,495: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 19:29:52,499: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 19:29:52,500: INFO: common] Created directory at: artifacts
+[2023-07-13 19:29:52,502: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-13 19:54:01,466: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 19:54:01,472: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 19:54:01,474: INFO: common] Created directory at: artifacts
+[2023-07-13 19:54:01,476: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-13 21:57:47,909: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-13 21:57:47,915: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-13 21:57:47,918: INFO: common] Created directory at: artifacts
+[2023-07-13 21:57:47,919: INFO: common] Created directory at: artifacts/model_trainer
