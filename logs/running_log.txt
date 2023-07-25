@@ -296,3 +296,478 @@ NameError: name 'os' is not defined
 [2023-07-15 16:07:00,327: INFO: common] Successfully read yaml file from params.yaml
 [2023-07-15 16:07:00,328: INFO: common] Created directory at: artifacts
 [2023-07-15 16:07:00,329: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 20:53:36,553: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 20:53:36,606: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 20:53:36,642: INFO: common] Created directory at: artifacts
+[2023-07-25 20:53:36,642: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 20:54:51,374: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 20:54:51,375: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 20:54:51,376: INFO: common] Created directory at: artifacts
+[2023-07-25 20:54:51,377: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 20:55:47,100: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 20:55:47,102: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 20:55:47,103: INFO: common] Created directory at: artifacts
+[2023-07-25 20:55:47,104: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 20:57:35,608: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 20:57:35,610: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 20:57:35,611: INFO: common] Created directory at: artifacts
+[2023-07-25 20:57:35,612: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 20:58:42,888: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 20:58:42,890: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 20:58:42,891: INFO: common] Created directory at: artifacts
+[2023-07-25 20:58:42,892: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 20:59:02,526: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 20:59:02,528: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 20:59:02,529: INFO: common] Created directory at: artifacts
+[2023-07-25 20:59:02,529: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 20:59:18,699: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 20:59:18,701: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 20:59:18,702: INFO: common] Created directory at: artifacts
+[2023-07-25 20:59:18,703: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:05:08,821: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:05:08,824: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:05:08,825: INFO: common] Created directory at: artifacts
+[2023-07-25 21:05:08,826: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:06:44,286: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:06:44,289: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:06:44,290: INFO: common] Created directory at: artifacts
+[2023-07-25 21:06:44,290: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:10:25,868: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:10:25,870: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:10:25,871: INFO: common] Created directory at: artifacts
+[2023-07-25 21:10:25,872: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:10:45,688: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:10:45,691: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:10:45,692: INFO: common] Created directory at: artifacts
+[2023-07-25 21:10:45,693: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:11:06,102: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:11:06,105: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:11:06,106: INFO: common] Created directory at: artifacts
+[2023-07-25 21:11:06,106: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:24:41,673: INFO: server] Started server process [3312]
+[2023-07-25 21:24:41,674: INFO: on] Waiting for application startup.
+[2023-07-25 21:24:41,675: INFO: on] Application startup complete.
+[2023-07-25 21:24:41,675: INFO: server] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2023-07-25 21:26:29,093: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:26:29,096: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:26:29,098: INFO: common] Created directory at: artifacts
+[2023-07-25 21:26:29,099: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:26:31,832: ERROR: h11_impl] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 235, in app
+    response_data = await serialize_response(
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 149, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError('cannot convert dictionary update sequence element #0 to a sequence'), TypeError('vars() argument must have __dict__ attribute')]
+[2023-07-25 21:28:26,549: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:28:26,550: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:28:26,551: INFO: common] Created directory at: artifacts
+[2023-07-25 21:28:26,551: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:28:28,805: ERROR: h11_impl] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 235, in app
+    response_data = await serialize_response(
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 149, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError('cannot convert dictionary update sequence element #0 to a sequence'), TypeError('vars() argument must have __dict__ attribute')]
+[2023-07-25 21:29:18,355: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:29:18,357: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:29:18,358: INFO: common] Created directory at: artifacts
+[2023-07-25 21:29:18,358: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:31:36,410: INFO: server] Shutting down
+[2023-07-25 21:31:36,520: INFO: on] Waiting for application shutdown.
+[2023-07-25 21:31:36,520: INFO: on] Application shutdown complete.
+[2023-07-25 21:31:36,520: INFO: server] Finished server process [3312]
+[2023-07-25 21:31:44,969: INFO: server] Started server process [14988]
+[2023-07-25 21:31:44,970: INFO: on] Waiting for application startup.
+[2023-07-25 21:31:44,970: INFO: on] Application startup complete.
+[2023-07-25 21:31:44,971: INFO: server] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2023-07-25 21:31:59,516: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:31:59,519: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:31:59,520: INFO: common] Created directory at: artifacts
+[2023-07-25 21:31:59,521: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:32:02,036: ERROR: h11_impl] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 235, in app
+    response_data = await serialize_response(
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 149, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError('cannot convert dictionary update sequence element #0 to a sequence'), TypeError('vars() argument must have __dict__ attribute')]
+[2023-07-25 21:34:55,459: INFO: server] Shutting down
+[2023-07-25 21:34:55,576: INFO: on] Waiting for application shutdown.
+[2023-07-25 21:34:55,578: INFO: on] Application shutdown complete.
+[2023-07-25 21:34:55,579: INFO: server] Finished server process [14988]
+[2023-07-25 21:35:14,348: INFO: server] Started server process [5352]
+[2023-07-25 21:35:14,350: INFO: on] Waiting for application startup.
+[2023-07-25 21:35:14,351: INFO: on] Application startup complete.
+[2023-07-25 21:35:14,352: INFO: server] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2023-07-25 21:35:27,502: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:35:27,505: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:35:27,507: INFO: common] Created directory at: artifacts
+[2023-07-25 21:35:27,508: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:35:29,988: ERROR: h11_impl] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 235, in app
+    response_data = await serialize_response(
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 149, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError('cannot convert dictionary update sequence element #0 to a sequence'), TypeError('vars() argument must have __dict__ attribute')]
+[2023-07-25 21:37:47,343: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:37:47,346: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:37:47,347: INFO: common] Created directory at: artifacts
+[2023-07-25 21:37:47,348: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:37:49,598: ERROR: h11_impl] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 235, in app
+    response_data = await serialize_response(
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 149, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError('cannot convert dictionary update sequence element #0 to a sequence'), TypeError('vars() argument must have __dict__ attribute')]
+[2023-07-25 21:38:13,997: INFO: server] Shutting down
+[2023-07-25 21:38:14,105: INFO: on] Waiting for application shutdown.
+[2023-07-25 21:38:14,106: INFO: on] Application shutdown complete.
+[2023-07-25 21:38:14,107: INFO: server] Finished server process [5352]
+[2023-07-25 21:38:23,224: INFO: server] Started server process [3116]
+[2023-07-25 21:38:23,225: INFO: on] Waiting for application startup.
+[2023-07-25 21:38:23,226: INFO: on] Application startup complete.
+[2023-07-25 21:38:23,227: INFO: server] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2023-07-25 21:38:33,582: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:38:33,585: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:38:33,585: INFO: common] Created directory at: artifacts
+[2023-07-25 21:38:33,586: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:38:36,157: ERROR: h11_impl] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 235, in app
+    response_data = await serialize_response(
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 149, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError('cannot convert dictionary update sequence element #0 to a sequence'), TypeError('vars() argument must have __dict__ attribute')]
+[2023-07-25 21:38:56,547: INFO: server] Shutting down
+[2023-07-25 21:38:56,656: INFO: on] Waiting for application shutdown.
+[2023-07-25 21:38:56,657: INFO: on] Application shutdown complete.
+[2023-07-25 21:38:56,658: INFO: server] Finished server process [3116]
+[2023-07-25 21:39:03,065: INFO: server] Started server process [5396]
+[2023-07-25 21:39:03,066: INFO: on] Waiting for application startup.
+[2023-07-25 21:39:03,067: INFO: on] Application startup complete.
+[2023-07-25 21:39:03,068: INFO: server] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2023-07-25 21:39:11,796: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:39:11,798: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:39:11,799: INFO: common] Created directory at: artifacts
+[2023-07-25 21:39:11,800: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:39:14,185: ERROR: h11_impl] Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 137, in jsonable_encoder
+    data = dict(obj)
+TypeError: 'numpy.float32' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 141, in jsonable_encoder
+    data = vars(obj)
+TypeError: vars() argument must have __dict__ attribute
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 235, in app
+    response_data = await serialize_response(
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\routing.py", line 149, in serialize_response
+    return jsonable_encoder(response_content)
+  File "C:\Users\Rounak\Desktop\OneDrive\College\Projects\Severity-of-Toxic-Commentis-End-to-End\.venv\lib\site-packages\fastapi\encoders.py", line 144, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'numpy.float32' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+[2023-07-25 21:40:29,432: INFO: server] Shutting down
+[2023-07-25 21:40:29,540: INFO: on] Waiting for application shutdown.
+[2023-07-25 21:40:29,541: INFO: on] Application shutdown complete.
+[2023-07-25 21:40:29,542: INFO: server] Finished server process [5396]
+[2023-07-25 21:40:34,807: INFO: server] Started server process [14452]
+[2023-07-25 21:40:34,808: INFO: on] Waiting for application startup.
+[2023-07-25 21:40:34,809: INFO: on] Application startup complete.
+[2023-07-25 21:40:34,810: INFO: server] Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2023-07-25 21:40:43,161: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-07-25 21:40:43,163: INFO: common] Successfully read yaml file from params.yaml
+[2023-07-25 21:40:43,164: INFO: common] Created directory at: artifacts
+[2023-07-25 21:40:43,165: INFO: common] Created directory at: artifacts/model_trainer
+[2023-07-25 21:42:09,787: INFO: server] Shutting down
+[2023-07-25 21:42:09,896: INFO: on] Waiting for application shutdown.
+[2023-07-25 21:42:09,897: INFO: on] Application shutdown complete.
+[2023-07-25 21:42:09,897: INFO: server] Finished server process [14452]
