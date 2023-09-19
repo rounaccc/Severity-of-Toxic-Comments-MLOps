@@ -1,4 +1,4 @@
-# Severity-of-Toxic-Commentis-End-to-End
+# Severity-of-Toxic-Comments-MLOps
 ## Research paper link
 [Detecting Toxic Comments Using FastText, CNN, and LSTM Models](https://link.springer.com/chapter/10.1007/978-3-031-37940-6_20#Abs1)
 
