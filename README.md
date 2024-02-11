@@ -6,6 +6,9 @@
 
 [Detecting Toxic Comments Using FastText, CNN, and LSTM Models](https://link.springer.com/chapter/10.1007/978-3-031-37940-6_20#Abs1)
 
+![image](https://github.com/rounaccc/Severity-of-Toxic-Comments-MLOps/assets/85012501/92811138-3f02-4326-8096-5e56822a3b53)
+
+
 ![image](https://github.com/rounaccc/Severity-of-Toxic-Comments-MLOps/assets/85012501/ea794332-2696-41d2-86bd-4a355208e6d9)
 
 
