@@ -1,3 +1,5 @@
+commentskey.pem
+severity_of_toxic_comments_accessKeys.csv
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

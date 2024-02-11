@@ -889,3 +889,15 @@ ValueError: [TypeError("'numpy.float32' object is not iterable"), TypeError('var
 [2023-07-26 19:43:52,558: INFO: common] Successfully read yaml file from params.yaml
 [2023-07-26 19:43:52,559: INFO: common] Created directory at: artifacts
 [2023-07-26 19:43:52,560: INFO: common] Created directory at: artifacts/model_trainer
+[2023-09-15 21:22:11,904: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-09-15 21:22:11,921: INFO: common] Successfully read yaml file from params.yaml
+[2023-09-15 21:22:11,923: INFO: common] Created directory at: artifacts
+[2023-09-15 21:22:11,924: INFO: common] Created directory at: artifacts/model_trainer
+[2023-09-15 21:22:32,693: INFO: common] Successfully read yaml file from config\config.yaml
+[2023-09-15 21:22:32,695: INFO: common] Successfully read yaml file from params.yaml
+[2023-09-15 21:22:32,696: INFO: common] Created directory at: artifacts
+[2023-09-15 21:22:32,697: INFO: common] Created directory at: artifacts/model_trainer
+[2024-02-11 13:23:15,437: INFO: common] Successfully read yaml file from config\config.yaml
+[2024-02-11 13:23:15,449: INFO: common] Successfully read yaml file from params.yaml
+[2024-02-11 13:23:15,451: INFO: common] Created directory at: artifacts
+[2024-02-11 13:23:15,452: INFO: common] Created directory at: artifacts/model_trainer
