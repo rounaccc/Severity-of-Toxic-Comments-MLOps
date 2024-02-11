@@ -16,3 +16,5 @@ https://github.com/rounaccc/Severity-of-Toxic-Comments-MLOps/assets/85012501/a0f
 6. Update the pipeline
 7. Update the main.py
 8. Update the app.py
+
+ECR Repository: 794033208871.dkr.ecr.ap-south-1.amazonaws.com/toxic-comments
